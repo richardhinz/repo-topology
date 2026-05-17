@@ -40,5 +40,5 @@ Terminal Controls
 * Monte Carlo Card: Shows canvas rendered thermal probability density heatmaps, tail risk metrics (VaR 95% and Expected Shortfall 95%), path bifurcations, and conditional survival curves.
 Calibration Notes
 The inverse problem optimization fits Hawkes parameters and volatility scaling via finite difference gradient descent over a signature distance loss function. Running 8 gradient steps with 10 Monte Carlo paths per evaluation highlights stark differences: the December 2011 simulation reveals high self excitation ($\alpha \approx 0.28$), while the March 2020 run shows high jump scaling but lower self excitation ($\alpha \approx 0.18$). This confirms the mathematical distinction between an endogenous cascade and an exogenous shock.
-The initial configuration utilizes public data from the Q1 2025 ECB Statistical Data Warehouse snapshot, incorporating weekly excess liquidity (€3850bn), ESTR (2.391%), and supervisor disclosed sovereign exposures.
+The initial configuration utilizes public data from the Q1 2025 ECB Statistical Data Warehouse snapshot, incorporating weekly excess liquidity (â‚¬3850bn), ESTR (2.391%), and supervisor disclosed sovereign exposures.
 
