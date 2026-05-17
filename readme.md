@@ -1,7 +1,8 @@
 ECB Repo Terminal
 A real time stress simulation of the euro denominated repo market, rendered as an interactive 3D manifold in the browser. Built as a research tool alongside work on rough path methods in financial risk.
-Live Demo Available Here
+
 The Core Concept
+
 The European interbank repo market is the plumbing of the financial system, handling 2 to 4 trillion euros in overnight secured lending every day. When it jams (as seen in December 2011 or March 2020), credit freezes and the ECB has days, not weeks, to respond. Standard risk models struggle here because they treat each time step independently. They fail to capture the structural shape of how a crisis unfolds, whether it is a slow peripheral contagion or a sudden systemic cliff edge.
 This simulation treats the market as a continuous landscape. 35 core institutions (the ECB, major European G SIBs, dealers, CCPs, money market funds, pension funds, and sovereign collateral markets) act as nodes on a surface. Systemic stress appears as sinkholes forming in real time. The geometry of those sinkholes, how they grow and connect, varies by crisis type, and that difference is mathematically meaningful.
 The engine blends stochastic control, rough path theory, network topology, and information geometry to surface insights that separate models keep hidden.
