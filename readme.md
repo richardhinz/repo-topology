@@ -1,4 +1,3 @@
-ECB Repo Terminal
 A real time stress simulation of the euro denominated repo market, rendered as an interactive 3D manifold in the browser. Built as a research tool alongside work on rough path methods in financial risk.
 
 The Core Concept
